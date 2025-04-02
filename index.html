@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hamburgerMenu.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=apartment" />
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="assets/image/lfd logo.jpg" alt="LFD">
+      
+      <div class="hamburgerIcon" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="hamburgerMenu">
+        <li><a href="pendaftaran/registrasi.html">Pendaftaran</a></li>
+        <li><a href="index.html">Terdaftar</a></li>
+      </ul>
+    </nav>
+    
+    <div class="banner">
+      <div class="banner-slides">
+        <img src="assets/image/images.jpg" alt="banner">
+        <img src="assets/image/images (1).jpg" alt="banner">
+        <img src="assets/image/images (2).jpg" alt="banner">
+        <img src="assets/image/images.jpg" alt="banner">
+      </div>
+      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+  </header>
+
+  <main>
+    <p class="text1">
+      Laboratorium Fisika Dasar Universitas Muslim Indonesia (UMI) merupakan sarana pendukung pembelajaran dan penelitian di bidang fisika untuk berbagai program studi. Laboratorium ini menyelenggarakan praktikum terstruktur dalam dua jenjang, yaitu Fisika Dasar 1 dan Fisika Dasar 2.
+    </p>
+    
+    <div class="container">
+      <div class="menuIcon" onclick="toggleMenu()">
+        <h2>Menu</h2>
+        <div class="arrow">⮞</div>
+      </div>           
+      
+      <div class="menu">
+        <div class="menu1">
+          <a href="#fisdas1"><h4>Fisika Dasar 1</h4></a>
+          <ul>
+            <a href="#pg"><li>Poligon Gaya</li></a>
+            <a href="#pa"><li>Pesawat Atwood</li></a>
+            <a href="#gg"><li>Gaya Gesek</li></a>
+            <a href="#kgp"><li>Konstanta Gaya Pegas</li></a>
+            <a href="#vf"><li>Viskositas Fluida</li></a>
+          </ul>
+        </div>
+        
+        <div class="menu2">
+          <a href="#fisdas2"><h4>Fisika Dasar 2</h4></a>
+          <ul>
+            <a href="#resonansi"><li>Resonansi Laju Rambat Bunyi</li></a>
+            <a href="#pembiasan"><li>Pembiasan Lensa</li></a>
+            <a href="#kirchoff"><li>Hukum Kirchoff</li></a>
+            <a href="#karakteristik"><li>Karakteristik Komponen Listrik</li></a>
+            <a href="#elektro"><li>Elektro Mekanik</li></a>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="content">
+        <div id="fisdas1">
+          <h3>Fisika Dasar 1</h3>
+          <div id="pg">
+            <img src="assets/image/images.jpg" alt="Poligon Gaya">
+            <h4>Poligon Gaya</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio eligendi suscipit atque. Recusandae nulla mollitia assumenda sequi enim corrupti eaque laborum nemo, nam consectetur sit repellat placeat. Eius, sunt?
+            </p>
+          </div>
+
+          <div id="pa">
+            <img src="assets/image/images.jpg" alt="Pesawat Atwood">
+            <h4>Pesawat Atwood</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio eligendi suscipit atque. Recusandae nulla mollitia assumenda sequi enim corrupti eaque laborum nemo, nam consectetur sit repellat placeat. Eius, sunt?
+            </p>
+          </div>
+
+          <div id="gg">
+            <img src="assets/image/images.jpg" alt="Gaya Gesek">
+            <h4>Gaya Gesek</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio eligendi suscipit atque. Recusandae nulla mollitia assumenda sequi enim corrupti eaque laborum nemo, nam consectetur sit repellat placeat. Eius, sunt?
+            </p>
+          </div>
+
+          <div id="kgp">
+            <img src="assets/image/images.jpg" alt="Konstanta Gaya Pegas">
+            <h4>Konstanta Gaya Pegas</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio eligendi suscipit atque. Recusandae nulla mollitia assumenda sequi enim corrupti eaque laborum nemo, nam consectetur sit repellat placeat. Eius, sunt?
+            </p>
+          </div>
+
+          <div id="vf">
+            <img src="assets/image/images.jpg" alt="Viskositas Fluida">
+            <h4>Viskositas Fluida</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio eligendi suscipit atque. Recusandae nulla mollitia assumenda sequi enim corrupti eaque laborum nemo, nam consectetur sit repellat placeat. Eius, sunt?
+            </p>
+          </div>
+        </div>
+  
+        <div id="fisdas2">
+          <h3>Fisika Dasar 2</h3>
+          <div id="resonansi">
+            <img src="assets/image/images.jpg" alt="Resonansi Laju Rambat Bunyi">
+            <h4>Resonansi Laju Rambat Bunyi</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio eligendi suscipit atque. Recusandae nulla mollitia assumenda sequi enim corrupti eaque laborum nemo, nam consectetur sit repellat placeat. Eius, sunt?
+            </p>
+          </div>
+
+          <div id="pembiasan">
+            <img src="assets/image/images.jpg" alt="Pembiasan Lensa">
+            <h4>Pembiasan Lensa</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio eligendi suscipit atque. Recusandae nulla mollitia assumenda sequi enim corrupti eaque laborum nemo, nam consectetur sit repellat placeat. Eius, sunt?
+            </p>
+          </div>
+
+          <div id="kirchoff">
+            <img src="assets/image/images.jpg" alt="Hukum Kirchoff">
+            <h4>Hukum Kirchoff</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio eligendi suscipit atque. Recusandae nulla mollitia assumenda sequi enim corrupti eaque laborum nemo, nam consectetur sit repellat placeat. Eius, sunt?
+            </p>
+          </div>
+
+          <div id="karakteristik">
+            <img src="assets/image/images.jpg" alt="Karakteristik Komponen Listrik">
+            <h4>Karakteristik Komponen Listrik</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio eligendi suscipit atque. Recusandae nulla mollitia assumenda sequi enim corrupti eaque laborum nemo, nam consectetur sit repellat placeat. Eius, sunt?
+            </p>
+          </div>
+
+          <div id="elektro">
+            <img src="assets/image/images.jpg" alt="Elektro Mekanik">
+            <h4>Elektro Mekanik</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio eligendi suscipit atque. Recusandae nulla mollitia assumenda sequi enim corrupti eaque laborum nemo, nam consectetur sit repellat placeat. Eius, sunt?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,32L60,37.3C120,43,240,53,360,80C480,107,600,149,720,176C840,203,960,213,1080,202.7C1200,192,1320,160,1380,144L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    <div class="footer-content">
+      <h3>Hubungi :</h3>
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-120v-560h160v-160h400v320h160v400H520v-160h-80v160H120Zm80-80h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 320h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 480h80v-80h-80v80Zm0-160h80v-80h-80v80Z"/></svg>
+        Gedung Laboratorium Teknik Lt.3 Kampus ll UMI, Jln. Urip Sumoharjo km. 05 Makassar 
+      </p>
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+        <a href="Lfd.fti.umi@gmail.com">Lfd.fti.umi@gmail.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <div class="scrollTop">🔼</div>
+
+  <script src="js/scrollTop.js"></script>
+  <script src="js/hamburgerMenu.js"></script>
+  <script src="js/sliderbanner.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/anchorMenu.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="close" style="font-size:2em;">←</a>
+  </header>
+
+  <main>
+    <div class="pendaftaran">
+      <h2>Pendaftaran</h2>
+      <form action="" method="post" onsubmit="return redirectToIndex(event)">
+        
+        <div class="form-group">
+          <label for="nama">Nama :</label>
+          <input type="text" id="nama" name="nama" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="stambuk">Stambuk :</label>
+          <input type="text" id="stambuk" name="stambuk" required>
+        </div>
+    
+        <div class="form-group">
+          <label for="jurusan">Jurusan :</label>
+          <select name="jurusan" id="jurusan" required>
+            <option value="">Pilih Jurusan</option>
+            <option value="TM">Teknik Mesin</option>
+            <option value="TI">Teknik Industri</option>
+            <option value="TP">Teknik Pertambangan</option>
+            <option value="TK">Teknik Kimia</option>
+          </select>
+        </div>
+    
+        <div class="submit-container">
+          <input type="submit" value="Kirim">
+        </div>        
+      </form>
+    </div>    
+  </main>
+  
+  <script>
+    function redirectToIndex(event) {
+    event.preventDefault();
+    
+    alert("Pendaftaran berhasil!");
+    
+    setTimeout(function() {
+        window.location.href = "../index.html";
+    }, 2000);
+    }
+  </script>
+</body>
+</html>
